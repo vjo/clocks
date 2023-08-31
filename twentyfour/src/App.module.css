@@ -1,0 +1,28 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  min-height: 20vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.main {
+  min-height: 80vh;
+  font-size: 10px;
+}
+
+.hour,
+.minute {
+  color: black;
+}
+
+.second {
+  color: tomato;
+}
